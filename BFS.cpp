@@ -31,7 +31,7 @@ int main()
     adj[2].push_back(4);
     adj[3].push_back(0);
     adj[4].push_back(2);
-    BFS(adj, 0, 4);
+    BFS(adj, 0, 5);
     for(auto it: ans) {
         cout<<it<<" ";
     }
