@@ -20,15 +20,9 @@ void myUnion(int u, int v) {
 }
 int find(int u) {   //find extreme parent
     int x = u;
-    //int v = 0;
     while(set[x] > 0) {
         x = set[x];
     }
-    // while(u != x) {
-    //     v = set[u];
-    //     set[u] = x;
-    //     u = v;
-    // }
     return x;
 }
 int main() {
